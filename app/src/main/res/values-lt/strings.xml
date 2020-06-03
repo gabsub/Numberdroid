@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Skaičiadroidas</string>
+    <string name="btn_start">Pradėti žaidimą</string>
+    <string name="btn_bonus">Kasdienis prizas</string>
+    <string name="btn_results">Rezultatai</string>
+    <string name="btn_settings">Nustatymai</string>
+    <string name="btn_about">Apie</string>
+    <string name="text_university">Kauno technologijos universitetas</string>
+    <string name="text_faculty">Informatikos fakultetas</string>
+    <string name="text_module">P175B156 Išmaniųjų įrenginių programavimas</string>
+    <string name="text_name">Gabija Subačiūtė IF-7/1</string>
+    <string-array name="difficulty_items">
+        <item>Lengvas</item>
+        <item>Vidutinis</item>
+        <item>Sunkus</item>
+        <item>Neįmanomas</item>
+    </string-array>
+    <string name="text_playername">Žaidėjo vardas</string>
+    <string name="text_playerage">Žaidėjo amžius</string>
+    <string name="switch_sound">Garsas</string>
+    <string name="btn_saveSettings">Išsaugoti</string>
+    <string name="number_range_format">Spėk skaičių intervale nuo %d iki %d</string>
+    <string name="turns_format">Spėjimas %d iš %d</string>
+    <string name="result_format">Spėtas skaičius buvo %d ir jis buvo per %s.</string>
+    <string name="result_high">didelis</string>
+    <string name="result_low">mažas</string>
+    <string name="btn_guess">Spėju!</string>
+    <string name="text_win">Tu laimėjai!!! :P</string>
+    <string name="text_lose">Tu pralaimėjai! :(</string>
+    <string name="text_results_id">ID</string>
+    <string name="text_results_name">Vardas</string>
+    <string name="text_results_difficulty">Lygis</string>
+    <string name="text_results_turns">Ėjimai</string>
+</resources>

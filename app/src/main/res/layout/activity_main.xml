@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1EFFB4"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/app_name"
+        app:titleMarginStart="40dp"
+        app:titleTextColor="@color/colorWhite"
+        app:logo="@drawable/ic_android_black_24dp"
+        app:popupTheme="@style/PopupMenuStyle"/>
+
+    <Button
+        android:id="@+id/start_game_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#008577"
+        android:onClick="startClick"
+        android:text="@string/btn_start"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <Button
+        android:id="@+id/results_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#008577"
+        android:onClick="startClick"
+        android:text="@string/btn_results"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_game_btn" />
+
+    <Button
+        android:id="@+id/settings_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="startClick"
+        android:text="@string/btn_settings"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/results_btn" />
+
+    <Button
+        android:id="@+id/about_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="startClick"
+        android:text="@string/btn_about"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_btn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about_btn"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/android_magician5" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/cloud3" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/cloud4" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/start_game_btn"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/shooting_star3" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        app:layout_constraintStart_toEndOf="@+id/results_btn"
+        app:layout_constraintTop_toBottomOf="@+id/start_game_btn"
+        app:srcCompat="@drawable/shooting_star4" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        app:layout_constraintStart_toEndOf="@+id/about_btn"
+        app:layout_constraintTop_toBottomOf="@+id/settings_btn"
+        app:srcCompat="@drawable/shooting_star4" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        app:layout_constraintEnd_toStartOf="@+id/settings_btn"
+        app:layout_constraintTop_toBottomOf="@+id/results_btn"
+        app:srcCompat="@drawable/shooting_star3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

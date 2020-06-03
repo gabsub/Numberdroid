@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/btn_start"
+        android:id="@+id/item_start"/>
+
+    <item
+        android:title="@string/btn_results"
+        android:id="@+id/item_results"/>
+
+    <item
+        android:title="@string/btn_settings"
+        android:id="@+id/item_settings"/>
+
+    <item
+        android:title="@string/btn_about"
+        android:id="@+id/item_about"/>
+
+    <item
+        android:title="@string/btn_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:id="@+id/menu_settings"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="@string/btn_about"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:id="@+id/menu_about"
+        app:showAsAction="always"/>
+
+
+</menu>
